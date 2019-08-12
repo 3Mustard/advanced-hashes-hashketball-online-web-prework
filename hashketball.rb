@@ -115,8 +115,8 @@ def game_hash
       }
     }
   }
-
-
+  teams
+end
 
 
 
