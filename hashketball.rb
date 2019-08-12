@@ -230,7 +230,12 @@ def player_with_longest_name
   longest_name = ""
   game_hash.each do |home_away,keys|
     keys[:players] do |player|
-      
+      if player[:player_name] > longest_name.length
+        longest_name = player[:player_name]
+      end
+    end
+  end
+  longest_name
 end
 
 
