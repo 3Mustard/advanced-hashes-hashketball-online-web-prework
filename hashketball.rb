@@ -250,7 +250,7 @@ def long_name_steals_a_ton
       end
     end
   end
-  return true if longest_player_name == most_steals else false
+  return true if longest_player_name == most_steals
 end
 
 
