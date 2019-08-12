@@ -166,13 +166,12 @@ def player_numbers(team_n)
 end
 
 def player_stats(player_n)
-  stats = Hash.new
+  stats = {}
   game_hash.each do |home_away,keys|
     keys[:players] do |player|
-      if player[:player_name] == player_n
-        stats = player.delete(:player_name)
+      stats = player if player[:player_name] == player_n
+      stats.delete()
       end
     end
   end
-  stats
 end
