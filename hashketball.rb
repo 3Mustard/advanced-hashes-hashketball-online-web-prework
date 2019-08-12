@@ -170,9 +170,7 @@ def player_stats(player_n)
     keys[:players] do |player|
       if player[:player_name] == player_n
         player.delete(:name)
-        stat = player
       end
     end
   end
-  stat
 end
