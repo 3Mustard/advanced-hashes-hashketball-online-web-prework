@@ -62,11 +62,56 @@ def game_hash
       :colors => ["Turquoise","Purple"],
       :players => {
         
-        "Jeff Adrien" => {},
-        "Bismack Biyombo" => {},
-        "DeSagna Diop" => {},
-        "Ben Gordon" => {},
-        "Kemba Walker" => {}
+        "Jeff Adrien" => {
+          :number =>,
+          :shoe =>,
+          :points =>,
+          :rebounds =>,
+          :assists =>,
+          :steals =>,
+          :blocks =>,
+          :slam_dunks =>
+        },
+        "Bismack Biyombo" => {
+          :number =>,
+          :shoe =>,
+          :points =>,
+          :rebounds =>,
+          :assists =>,
+          :steals =>,
+          :blocks =>,
+          :slam_dunks =>
+        },
+        "DeSagna Diop" => {
+          :number =>,
+          :shoe =>,
+          :points =>,
+          :rebounds =>,
+          :assists =>,
+          :steals =>,
+          :blocks =>,
+          :slam_dunks =>
+        },
+        "Ben Gordon" => {
+          :number =>,
+          :shoe =>,
+          :points =>,
+          :rebounds =>,
+          :assists =>,
+          :steals =>,
+          :blocks =>,
+          :slam_dunks =>
+        },
+        "Kemba Walker" => {
+          :number =>,
+          :shoe =>,
+          :points =>,
+          :rebounds =>,
+          :assists =>,
+          :steals =>,
+          :blocks =>,
+          :slam_dunks =>
+        }
       }
     }
   }
