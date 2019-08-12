@@ -62,11 +62,11 @@ def game_hash
       :colors => ["Turquoise","Purple"],
       :players => {
         
-        "Jeff Adrien"
-        "Bismack Biyombo"
-        "DeSagna Diop"
-        "Ben Gordon"
-        
+        "Jeff Adrien" => {},
+        "Bismack Biyombo" => {},
+        "DeSagna Diop" => {},
+        "Ben Gordon" => {},
+        "Kemba Walker" => {}
       }
     }
   }
