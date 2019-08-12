@@ -207,6 +207,11 @@ def most_points_scored
   player_n
 end
 
+def winning_team
+  home_points = 0
+  away_points = 0
+  
+end
 
 
 
