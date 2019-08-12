@@ -171,7 +171,7 @@ def player_stats(player_n)
     keys[:players] do |player|
       if player[:player_name] == player_n
         player.delete(:player_name)
-        return player.map do |key,value| 
+        return player.map do |key,value| key
       end
     end
   end
