@@ -239,7 +239,6 @@ def player_with_longest_name
 end
 
 def long_name_steals_a_ton
-  longest_player_name = player_with_longest_name
   most_steals = ""
   steals_total = 0
   game_hash.each do |home_away,keys|
@@ -250,9 +249,7 @@ def long_name_steals_a_ton
       end
     end
   end
-  if longest_player_name == most_steals
-    return true
-  end
+  return true if most_steals == player_with_longest_name
 end
 
 
