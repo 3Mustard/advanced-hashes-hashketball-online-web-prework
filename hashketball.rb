@@ -170,7 +170,7 @@ def player_stats(player_n)
   game_hash.each do |home_away,keys|
     keys[:players] do |player|
       stats = player if player[:player_name] == player_n
-      stats.delete()
+      stats.delete(:player_name)
       end
     end
   end
