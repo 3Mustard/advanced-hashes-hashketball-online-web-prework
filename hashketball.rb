@@ -137,6 +137,10 @@ def num_points_scored(player_n)
   end
 end
 
+def shoe_size(player_n)
+  
+end
+
 
 
 
