@@ -146,7 +146,8 @@ def shoe_size(player_n)
 end
 
 def team_colors(team_n)
-  
+  game_hash.each do |home_away,keys|
+    if keys[]
 end
 
 
