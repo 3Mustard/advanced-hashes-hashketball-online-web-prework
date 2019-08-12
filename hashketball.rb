@@ -129,7 +129,9 @@ def game_hash
   teams
 end
 
-
+def num_points_scored(player_name)
+  
+end
 
 
 
