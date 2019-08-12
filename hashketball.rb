@@ -6,7 +6,9 @@ def game_hash
       :players => {
         
         "Alan Anderson" => {},
-        "Reggie Evans"
+        "Reggie Evans" => {},
+        "Brook Lopez" => {}
+        "Mason Plumlee" => {},
       }
     }
     :away => {
