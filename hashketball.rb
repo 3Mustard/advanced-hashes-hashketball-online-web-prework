@@ -153,4 +153,7 @@ def team_colors(team_n)
   end
 end
 
-
+def team_names
+  game_hash.each do |home_away,keys|
+    return keys[:team_name].map
+end
