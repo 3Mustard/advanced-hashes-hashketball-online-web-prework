@@ -169,7 +169,8 @@ def player_stats(player_n)
   stats = {}
   game_hash.each do |home_away,keys|
     keys[:players] do |player|
-      stats = player if player[:player_name] == player_n
+      if player[:player_name] == player_n
+        player.map do |stats| 
       end
     end
   end
